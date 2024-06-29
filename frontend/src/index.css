@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #FFDE59;
+    --light-color: #F8F9FA;
+    --primary-font-color: #333;
+    /* --secondary-color: #FFA500; */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-full{
+    width: 100%;
+}
+.bg-primary {
+    background-color: var(--light-color) !important;
+}
+.box-shadow-1 {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.box-shadow-2 {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.brand-logo{
+    width: auto;
+    height: 75px;
+}
+.navbar-wrapper{
+    width: 80%;
+    justify-content: space-between;
+   margin: auto;
+}
+.navbar-logo{
+    width: 30%;
+}
+.navbar-nav{
+    width: 70%;
+   
+}
+.navbar-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+}
+.cart-item-name{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-font-color);
+}
